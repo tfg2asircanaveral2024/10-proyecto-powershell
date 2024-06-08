@@ -11,7 +11,7 @@ pipeline {
 
             steps {
                 dir('/var/jenkins_home/workspace-compartido') {
-                    git branch: 'correcto', url: 'https://github.com/tfg2asircanaveral2024/10-proyecto-powershell.git'
+                    git branch: 'incorrecto', url: 'https://github.com/tfg2asircanaveral2024/10-proyecto-powershell.git'
                 }
             }
         }

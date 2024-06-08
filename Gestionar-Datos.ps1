@@ -28,6 +28,8 @@ function Gestionar-Datos {
     )
     
     BEGIN {
+        # ERROR: eliminar la siguiente línea para que el script se comporte como debe
+        Throw "Este es un error inexplicable"
         $DatoSalida=@()
     }
     
